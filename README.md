@@ -1,3 +1,3 @@
-# NanbuCamera libe rule Site
+# NanbuCamera live rule Site
 
 # https://nooooooo-0328.github.io/NanbuCamera-live-rule/
