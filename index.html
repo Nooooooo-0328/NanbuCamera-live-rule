@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,12 @@
             padding: 0;
             font-family: Arial, sans-serif;
         }
+
         main {
             width: 100%;
             text-align: center;
         }
+
         section {
             margin: 20px auto;
             max-width: 600px;
@@ -22,18 +25,50 @@
             border-radius: 5px;
             background-color: #f9f9f9;
         }
+
         h1 {
             font-size: 32px;
         }
+
         h2 {
             font-size: 24px;
             margin-bottom: 10px;
         }
+
         p {
             font-size: 18px;
         }
+
+        .discord {
+            background-color: #7289da;
+            color: #ffffff;
+            animation: discord-animation 3s infinite alternate;
+        }
+
+        .discord a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .discord a:hover {
+            background-color: #5865f2;
+            color: #ffffff;
+        }
+
+        @keyframes discord-animation {
+            0% {
+                background-color: #7289da;
+            }
+
+            100% {
+                background-color: #5865f2;
+            }
+        }
     </style>
 </head>
+
 <body>
     <main>
         <h1>NanbuCamera YouTube ルール サイト</h1>
@@ -42,22 +77,42 @@
             <h2>日本語 | 韓国語 | 英語 ルール</h2>
             本サイトは、<a href="https://www.youtube.com/@NanbuCamera">NanbuCamera</a>の配信時のルール記載サイトです。<br>
             본사이트는,<a href="https://www.youtube.com/@NanbuCamera">NanbuCamera</a>의 전달시의 룰 기재 사이트입니다.<br>
-            This site is the rule entry site for <a href="https://www.youtube.com/@NanbuCamera">NanbuCamera</a> delivery.
+            This site is the rule entry site for <a href="https://www.youtube.com/@NanbuCamera">NanbuCamera</a>
+            delivery.
         </section>
 
         <section lang="ja">
             <h2>日本語 ルール</h2>
             <li><a href="global/ja.html">こちら</a></li>
         </section>
+
         <section lang="ko">
             <h2>한국어 내용</h2>
             <li><a href="global/kr.html">여기</a></li>
         </section>
+
         <section lang="en">
             <h2>English Content</h2>
             <li><a href="global/en.html">Here</a></li>
         </section>
-        最終更新: 2024/04/06
+
+        <section class="discord" lang="ja kr en">
+            <h2>宣伝<br><br>Discordサーバー / Discord 서버 / Discord Server</h2>
+            <p>NanbuCameraが設立した雑談サーバーです! 地震学に興味がある方がいるので、良かったらご参加ください。</p>
+            <p>NanbuCamera의 공식 Discord 서버에 참여하여 최신 정보와 커뮤니티에 접속하세요!</p>
+            <p>NanbuCamera가 설립한 잡담 서버입니다! 지진학에 관심이 있는 분들이 있으니, 좋다면 참여해주세요.</p>
+            <p>Join the official NanbuCamera Discord server to access the latest information and community!</p>
+            <p>This is a chat server established by NanbuCamera! There are people interested in seismology, so please
+                feel free to join.</p>
+            <p><a href="https://discord.gg/Z8aqnkfZCU" target="_blank">参加する / 참여하기 / Join (クリック | 클릭 |click)</a></p>
+            <iframe src="https://discord.com/widget?id=1144043990044385320&theme=dark"
+                style="width: 100%; aspect-ratio: 16/9;" allowtransparency="true" frameborder="0"
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+        </section>
+
+        最終更新: 2024/06/19
     </main>
 </body>
+
 </html>
